@@ -5,13 +5,14 @@
 - The program also assumes that the user is being cooperative by looking at the camera and being in the frame.
 
 ## How it works: 
-- To run the program, you need to install OpenCV-Python, [here](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) is the link for Windows.  [Here](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html) is the link for Linux.
+- To run the program, clone the repo.
+- Then you need to install OpenCV-Python. [Here](https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/) is a link for Windows.  [Here](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html) is a link for Linux.
 - After that you need to make sure to run ``` pip install dlib ```.
 - After that you run the code by running ```python FacialExp.py```.
 
 ### The program will:
-- print "yes" at the terminal when you nod.
-- print "no" at the terminal when you shake the head.
-- print "mouth open" when you open your mouth.
-- print "mouth closed" when you close your mouth.
-- print "blink" when you blink.
+- Print "yes" at the terminal when you nod.
+- Print "no" at the terminal when you shake the head.
+- Print "mouth open" when you open your mouth.
+- Print "mouth closed" when you close your mouth.
+- Print "blink" when you blink.
